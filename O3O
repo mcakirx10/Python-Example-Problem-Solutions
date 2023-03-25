@@ -1,0 +1,11 @@
+a = 1000                # Limit number
+b = 1                   # The number we start with
+sum = 0                 # This variable is created in order to sum numbers divided by 3 or 5.
+while b<a:              # Unless b is less than a, calculation is carried on.
+  if b%3 == 0:          # If number is divided perfectly by 3, it is added to the sum.
+    sum += b
+  elif b%5 == 0:        # If number is divided perfectly by 5, it is added to the sum.
+    sum += b
+  b +=1
+
+print(sum)
